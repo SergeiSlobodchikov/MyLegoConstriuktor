@@ -1,4 +1,4 @@
-package com.example.assembletheconstructoryourself
+package com.example.mylegoconstriuktor
 
 import android.util.Log
 import androidx.lifecycle.ViewModel

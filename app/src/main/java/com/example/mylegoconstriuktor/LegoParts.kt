@@ -1,4 +1,4 @@
-package com.example.assembletheconstructoryourself
+package com.example.mylegoconstriuktor
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

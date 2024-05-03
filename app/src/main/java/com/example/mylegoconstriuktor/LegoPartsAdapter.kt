@@ -1,4 +1,4 @@
-package com.example.assembletheconstructoryourself
+package com.example.mylegoconstriuktor
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

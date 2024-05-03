@@ -1,4 +1,4 @@
-package com.example.assembletheconstructoryourself
+package com.example.mylegoconstriuktor
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -31,7 +31,7 @@ class SecondPageFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         adapter = LegoPartsAdapter() // Initialize adapter
-        binding.recyclerView.adapter = adapter // Set adapter to RecyclerView
+//        binding.recyclerView.adapter = adapter // Set adapter to RecyclerView
 
         val application = requireActivity().application as App
         val legoPartsDao = application.db.legoPartsDao()

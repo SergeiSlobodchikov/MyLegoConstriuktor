@@ -51,15 +51,14 @@ android {
 }
 
 dependencies {
-    implementation("androidx.recyclerview:recyclerview:1.3.2")
-    implementation("androidx.room:room-runtime:2.6.1")
-    implementation("androidx.room:room-runtime:2.4.0") // Библиотека "Room"
-    kapt("androidx.room:room-compiler:2.4.0") // Кодогенератор
-    implementation("androidx.room:room-ktx:2.6.1")// Дополнительно для Kotlin Coroutines, Kotlin Flows
-    implementation("androidx.fragment:fragment-ktx:1.7.0")
-    implementation("androidx.core:core-ktx:1.13.1")
-    implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
-    implementation("androidx.navigation:navigation-ui-ktx:2.7.7n")
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.androidx.room.runtime) // Библиотека "Room"
+    kapt(libs.androidx.room.compiler) // Кодогенератор
+    implementation(libs.androidx.room.ktx)// Дополнительно для Kotlin Coroutines, Kotlin Flows
+    implementation(libs.androidx.fragment.ktx)
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
     //Navigation
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

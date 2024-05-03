@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/firstPageFragment"
-        android:name="com.example.assembletheconstructoryourself.FirstPageFragment"
+        android:name="com.example.mylegoconstriuktor.FirstPageFragment"
         android:label="FirstPageFragment" >
         <action
             android:id="@+id/action_firstPageFragment_to_secondPageFragment"
@@ -14,6 +14,6 @@
     </fragment>
     <fragment
         android:id="@+id/secondPageFragment"
-        android:name="com.example.assembletheconstructoryourself.SecondPageFragment"
+        android:name="com.example.mylegoconstriuktor.SecondPageFragment"
         android:label="SecondPageFragment" />
 </navigation>

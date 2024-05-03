@@ -1,4 +1,4 @@
-package com.example.assembletheconstructoryourself
+package com.example.mylegoconstriuktor
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
