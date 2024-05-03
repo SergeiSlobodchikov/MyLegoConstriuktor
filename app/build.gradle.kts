@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.assembletheconstructoryourself"
+    namespace = "com.example.mylegoconstriuktor"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.assembletheconstructoryourself"
+        applicationId = "com.example.mylegoconstriuktor"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -41,12 +41,6 @@ android {
     }
     buildFeatures {
         viewBinding = true
-    }
-    externalNativeBuild {
-        cmake {
-            path = file("src/main/cpp/CMakeLists.txt")
-            version = "3.22.1"
-        }
     }
 }
 

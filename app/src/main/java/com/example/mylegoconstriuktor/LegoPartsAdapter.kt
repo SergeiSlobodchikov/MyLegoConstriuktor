@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.assembletheconstructoryourself.databinding.ItemDetailBinding
+import com.example.mylegoconstriuktor.databinding.ItemDetailBinding
 
 class LegoPartsAdapter : ListAdapter<LegoParts, LegoPartsViewHolder>(LegoPartsDiffCallback()) {
 

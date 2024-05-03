@@ -7,8 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.example.assembletheconstructoryourself.R
-import com.example.assembletheconstructoryourself.databinding.FragmentFirstPageBinding
+import com.example.mylegoconstriuktor.databinding.FragmentFirstPageBinding
 
 class FirstPageFragment : Fragment() {
     private val mainViewModel: MainViewModel by activityViewModels()

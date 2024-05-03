@@ -10,7 +10,7 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.observe
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.assembletheconstructoryourself.databinding.FragmentSecondPageBinding
+import com.example.mylegoconstriuktor.databinding.FragmentSecondPageBinding
 
 class SecondPageFragment : Fragment() {
 
