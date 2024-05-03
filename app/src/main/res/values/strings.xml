@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyLegoConstriuktor</string>
+<!-- TODO: Remove or change this placeholder text -->
+<string name="hello_blank_fragment">Hello blank fragment</string>
+<string name="add_a_detail">Добавить детали</string>
+<string name="save_data">Сохранить данные</string>
+<string name="text_for_loading">Здесь будет выводится текст</string>
+<string name="get_data">Загрузка данных</string>
+<string name="name_datail">Название детали</string>
+<string name="amount_of_detail">0</string>
+<string name="textView_list_of_details">Список деталей:</string>
+<string name="confirm_button">Подтвердить</string>
+</resources>
